@@ -1,11 +1,7 @@
-# gatsby-starter-blog
-Gatsby starter for creating a blog
+# dev-blog
+This my personal blog with posts created from Kyle Mathews' [code](https://twitter.com/kylemathews).
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+[Check it out](https://mdevblog.netlify.com/)
 
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
-
-Or [view the live demo here](https://gatsby-starter-blog-demo.netlify.com/).
-
-## Running in development
+### Running in development
 `gatsby develop`
