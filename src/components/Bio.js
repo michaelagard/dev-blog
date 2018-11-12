@@ -27,9 +27,8 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          Written by <strong>Kyle Mathews</strong> who lives and works in San
-          Francisco building useful things.{' '}
-          <a href="https://twitter.com/kylemathews">
+          Blog is mananged by <strong>Michael Agard</strong> and he lives and works in Chattanooga, TN.{' '}
+          <a href="https://twitter.com/AdultAgard">
             You should follow him on Twitter
           </a>
         </p>
