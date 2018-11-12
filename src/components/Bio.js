@@ -7,7 +7,6 @@ import 'typeface-merriweather'
 import profilePic from './profile-pic.jpg'
 import { rhythm } from '../utils/typography'
 
-import './index.css';
 
 class Bio extends React.Component {
   render() {
