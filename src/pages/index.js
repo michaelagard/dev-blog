@@ -6,7 +6,6 @@ import Helmet from 'react-helmet'
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import { rhythm } from '../utils/typography'
-import './index.css';
 
 class BlogIndex extends React.Component {
   render() {
