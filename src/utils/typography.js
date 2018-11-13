@@ -12,7 +12,10 @@ GitHub.overrideThemeStyles = () => ({
   'p,a,small,li': {
     color: '#d4d4dc',
   },
-  'h1,h2,h3,h4,h5,h6': {
+  'h3': {
+    color: '#d7d8db'
+  },
+  'h1,h2,h4,h5,h6': {
     color: '#d4d4dcda'
   },
   'blockquote': {

@@ -29,9 +29,9 @@ class Bio extends React.Component {
           }}
         />
         <p>
-          Blog is mananged by <strong>Michael Agard</strong> and he lives and works in Chattanooga, TN.{' '}
+          I'm <strong>Michael Agard</strong>, a freelance student, professional adult, and software engineer.{' '}
           <a href="https://twitter.com/AdultAgard">
-            You should follow him on Twitter
+            You should follow me on Twitter
           </a>
         </p>
       </div>
