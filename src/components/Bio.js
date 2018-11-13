@@ -26,6 +26,7 @@ class Bio extends React.Component {
             width: rhythm(2),
             height: rhythm(2),
             borderRadius: "12%",
+            opacity: ".7",
           }}
         />
         <p>
