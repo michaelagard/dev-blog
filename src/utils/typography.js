@@ -9,7 +9,7 @@ GitHub.overrideThemeStyles = () => ({
   'body': {
     background: '#393f4d',
   },
-  'p,a,small': {
+  'p,a,small,li': {
     color: '#d4d4dc',
   },
   'h1,h2,h3,h4,h5,h6': {
