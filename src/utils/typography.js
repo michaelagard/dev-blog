@@ -18,9 +18,29 @@ GitHub.overrideThemeStyles = () => ({
   'h1,h2,h4,h5,h6': {
     color: '#d4d4dcda'
   },
+  'small': {
+    fontSize: '12px'
+  },
+  'a': {
+    textDecoration: 'underline'
+  },
+  'code': {
+    color: '#393f4d',
+    backgroundColor: '#d4d4dc',
+    lineHeight: '1.0',
+    fontSize: '1'
+  },
+  'a:hover': {
+    transition: '.2s',
+    color: 'white'
+  },
   'blockquote': {
     color: "grey",
     borderLeft: "10px solid #ccc",
+  },
+  '.gatsby-highlight': {
+    background: '#d4d4dc',
+    padding: '25px'
   }
 })
 
