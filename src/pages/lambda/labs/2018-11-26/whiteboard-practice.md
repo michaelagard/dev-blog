@@ -1,5 +1,5 @@
 ---
-title: Lambda Week 3 Whiteboard Practice
+title: Lambda Week 3 Whiteboard Practice - Ring Buffer
 date: "2018-11-26"
 ---
 
