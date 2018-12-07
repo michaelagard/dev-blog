@@ -34,6 +34,6 @@ function makeBoard(n) {
 }
 ```
 GitHub repo for my assigned problem.
-[Here](https://github.com/LambdaSchool/Whiteboard-Pairing/tree/master/RingBuffer) 
+[Here](https://github.com/LambdaSchool/Whiteboard-Pairing/tree/master/RobotPaths) 
 
-My demonstration video: https://youtu.be/YDZGgNuwk_E
+My demonstration video: https://youtu.be/Gs9ZXQIsmK4
