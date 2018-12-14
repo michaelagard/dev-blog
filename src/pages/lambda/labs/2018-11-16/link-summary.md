@@ -3,7 +3,7 @@ title: Lambda Week 2 Summary
 date: "2018-11-16"
 ---
 
-First week records of the Lambda **Rate My DIY** project. 
+Second week's records of the Lambda **Rate My DIY** project. 
 
 ### Front End
 * Features/user settings/change user email 

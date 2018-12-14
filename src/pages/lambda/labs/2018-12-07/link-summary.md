@@ -3,7 +3,7 @@ title: Lambda Week 4 Summary
 date: "2018-12-07"
 ---
 
-First week records of the Lambda **Rate My DIY** project. 
+Fourth week's records of the Lambda **Rate My DIY** project. 
 
 ### Front End
 * 

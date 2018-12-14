@@ -3,7 +3,7 @@ title: Lambda Week 3 Summary
 date: "2018-11-26"
 ---
 
-First week records of the Lambda **Rate My DIY** project. 
+Third week's records of the Lambda **Rate My DIY** project. 
 
 ### Front End
 * Remove old components no longer needed from the user settings
