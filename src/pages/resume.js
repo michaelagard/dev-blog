@@ -53,7 +53,7 @@ class Resume extends React.Component {
                 FRONT END
             </SectionCol1>
               <SectionCol2>
-                <ColSummary>Full Stack Web Development Track</ColSummary>
+                <ColSummary>HTML, CSS, Javascript</ColSummary>
               </SectionCol2>
             </SectionRow>
             <SectionRow>
