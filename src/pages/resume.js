@@ -16,7 +16,7 @@ class Resume extends React.Component {
               <ResumeContactLink href="https://goo.gl/maps/K2Hh1z4ZkVo" target="_blank">Graysville TN</ResumeContactLink>
               <ResumeContactLink href="https://www.linkedin.com/in/michael-agard-7a1289105/" target="_blank">Linkedin</ResumeContactLink>
               <ResumeContactLink href="https://github.com/michaelagard" target="_blank">Github</ResumeContactLink>
-              <ResumeContactLink href="https://twitter.com/AdultAgard" target="_blank">AdultAgard</ResumeContactLink>
+              <ResumeContactLink href="https://twitter.com/AdultAgard" target="_blank">Twitter</ResumeContactLink>
             </ResumeContact>
           </ResumeHeader>
           <ResumeSummary>
