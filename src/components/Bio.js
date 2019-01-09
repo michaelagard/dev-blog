@@ -31,9 +31,9 @@ class Bio extends React.Component {
         />
         <p>
           I'm <strong>Michael Agard</strong>, a freelance student, professional adult, and software engineer.{' '}
-          <a href="https://twitter.com/AdultAgard">
+          <a href="https://twitter.com/AdultAgard" target="_blank">
             You should follow me on Twitter
-          </a>
+          </a>{' '} or <a href="/resume">check out my resume</a>.
         </p>
       </div>
     )
