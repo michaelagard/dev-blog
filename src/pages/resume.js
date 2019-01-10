@@ -9,8 +9,11 @@ class Resume extends React.Component {
           <ResumeHeader>
             <ResumeName>Michael Agard</ResumeName>
             <ResumeContact>
+              <ResumeContactItem>Graysville, TN</ResumeContactItem>
+            </ResumeContact>
+            <ResumeContact>
+              <ResumeContactItem>423-381-0110</ResumeContactItem>
               <ResumeContactLink href="mailto://mdagard@gmail.com">mdagard@gmail.com</ResumeContactLink>
-              <ResumeContactItem>Graysville TN</ResumeContactItem>
             </ResumeContact>
             <ResumeContact>
               <ResumeContactLink href="https://www.linkedin.com/in/mdagard" target="_blank">LinkedIn</ResumeContactLink>
@@ -59,21 +62,19 @@ class Resume extends React.Component {
           </Section>
 
           <Section>
-            <SectionTitle>Experience</SectionTitle>
+            <SectionTitle>Work Experience</SectionTitle>
             <SectionRow>
               <SectionCol1>
                 June 2014 to July 2018
               </SectionCol1>
               <SectionCol2>
                 <ColTitle>Pentius · Project Manager · Boca Raton, FL (Remote)</ColTitle>
-                <ColSummary>
-                  <ul>
-                    <ListItem>Coordinate large and small scale development projects focusing in SQL and classic asp agile developement</ListItem>
-                    <ListItem>Report on my developers' activity to the senior PM hourly</ListItem>
-                    <ListItem>Automate daily and weekly tests and monitor reports for errors to ticket</ListItem>
-                    <ListItem>Manage several credit based social media accounts across several platforms</ListItem>
-                  </ul>
-                </ColSummary>
+                <ul>
+                  <ListItem>Coordinate large and small scale development projects focusing in SQL and classic asp agile developement</ListItem>
+                  <ListItem>Report on my developers' activity to the senior PM hourly</ListItem>
+                  <ListItem>Automate daily and weekly tests and monitor reports for errors to ticket</ListItem>
+                  <ListItem>Manage several credit based social media accounts across several platforms</ListItem>
+                </ul>
               </SectionCol2>
             </SectionRow>
             <SectionRow>
@@ -82,12 +83,9 @@ class Resume extends React.Component {
               </SectionCol1>
               <SectionCol2>
                 <ColTitle>Walden Security · Security Officer · Chattanooga, TN</ColTitle>
-                {/* <ColSummary>
-                  <ul>
-                    <ListItem>Performed critical observations, routine tasks, and reported regularly to a superior</ListItem>
-                    <ListItem>Logged all activity hourly</ListItem>
-                  </ul>
-                </ColSummary> */}
+                <ul>
+                  <ListItem>Perform critical observations, routine tasks, and report regularly to a superior officer</ListItem>
+                </ul>
               </SectionCol2>
             </SectionRow>
           </Section>
@@ -106,9 +104,10 @@ class Resume extends React.Component {
                 <ul>
                   <ListItem>Collaborate with team members designing and writing the Node.js / express server endpoints and API.</ListItem>
                   <ListItem>Implemented Bootstrap design to certain elements.</ListItem>
+                  <ListItem>Implemented Auth0 as the authorization platform</ListItem>
                 </ul>
                 <ColSummary>
-                  Stack/Tech/Utilized: JavaScript, React, Redux, Express, Node.js, Knex, MySQL, Postgres
+                  Tech Stack Utilized: React, Redux, Node.js, Express, Knex, Postgres
                 </ColSummary>
               </SectionCol2>
             </SectionRow>
@@ -172,7 +171,7 @@ const ResumeContactItem = styled.p`
 `;
 
 const ResumeSummary = styled.p`
-  /* margin-bottom: 5px; */
+  text-align: justify;
 `;
 
 const Section = styled.div`
@@ -207,6 +206,7 @@ const ColTitle = styled.div`
 `;
 
 const ColSummary = styled.p`
+text-align: justify;
 `;
 
 const ListItem = styled.li`
