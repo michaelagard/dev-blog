@@ -11,31 +11,17 @@ class Resume extends React.Component {
             <ResumeContact>
               <ResumeContactLink href="mailto://mdagard@gmail.com">mdagard@gmail.com</ResumeContactLink>
               <ResumeContactItem>Graysville TN</ResumeContactItem>
+            </ResumeContact>
+            <ResumeContact>
               <ResumeContactLink href="https://www.linkedin.com/in/mdagard" target="_blank">LinkedIn</ResumeContactLink>
               <ResumeContactLink href="https://github.com/michaelagard" target="_blank">GitHub</ResumeContactLink>
               <ResumeContactLink href="https://twitter.com/AdultAgard" target="_blank">Twitter</ResumeContactLink>
             </ResumeContact>
           </ResumeHeader>
           <ResumeSummary>
-            Full stack web developer with 4 years of experience as a project manager. I'm most experienced with JavaScript, and I've also worked with Python.
+            Full stack web developer with 4 years of experience as a project manager. Most experienced with JavaScript and Python.
           </ResumeSummary>
-          <Section>
-            <SectionTitle>Projects</SectionTitle>
-            <SectionRow>
-              <SectionCol1>
-                Nov. 2018 to Dec. 2018
-            </SectionCol1>
-              <SectionCol2>
-                <ColTitle>RateMyDIY · Team of 5 · <a href="https://ratemydiy-dev.netlify.com/" target="_blank">ratemydiy-dev.netlify.com</a></ColTitle>
-                <ColSummary>RateMyDIY was a labs project that was worked on over the course of a month, that demonstrates database manipulation and 3rd party authentication using Javascript, React, Redux, Node and MySQL.
-                <ul>
-                    <ListItem>Contributed to Node.js / express server endpoints and API.</ListItem>
-                    <ListItem>Wrote several components for </ListItem>
-                  </ul>
-                </ColSummary>
-              </SectionCol2>
-            </SectionRow>
-          </Section>
+
           <Section>
             <SectionTitle>Skills</SectionTitle>
             <SectionRow>
@@ -48,18 +34,10 @@ class Resume extends React.Component {
             </SectionRow>
             <SectionRow>
               <SectionCol1>
-                Databases
-            </SectionCol1>
-              <SectionCol2>
-                <ColSummary>SQLite, Microsoft SQL, PostgreSQL</ColSummary>
-              </SectionCol2>
-            </SectionRow>
-            <SectionRow>
-              <SectionCol1>
                 Frameworks
             </SectionCol1>
               <SectionCol2>
-                <ColSummary>React, Gatsby</ColSummary>
+                <ColSummary>React, Redux, Express, Bootstrap</ColSummary>
               </SectionCol2>
             </SectionRow>
             <SectionRow>
@@ -67,18 +45,19 @@ class Resume extends React.Component {
                 Backend
             </SectionCol1>
               <SectionCol2>
-                <ColSummary>JavaScript, Python3</ColSummary>
+                <ColSummary>JavaScript, Python3, Node.js</ColSummary>
               </SectionCol2>
             </SectionRow>
             <SectionRow>
               <SectionCol1>
-                Server side
+                Databases
             </SectionCol1>
               <SectionCol2>
-                <ColSummary>Node.js, Express</ColSummary>
+                <ColSummary>SQLite, Microsoft SQL, PostgreSQL, Knex</ColSummary>
               </SectionCol2>
             </SectionRow>
           </Section>
+
           <Section>
             <SectionTitle>Experience</SectionTitle>
             <SectionRow>
@@ -89,10 +68,10 @@ class Resume extends React.Component {
                 <ColTitle>Pentius · Project Manager · Boca Raton, FL (Remote)</ColTitle>
                 <ColSummary>
                   <ul>
-                    <ListItem>Coordinate large and small scale development projects focused in SQL and classic asp agile developement.</ListItem>
-                    <ListItem>Report on my developers' activity to the senior PM hourly.</ListItem>
-                    <ListItem>Automate daily and weekly tests and monitor reports for errors to ticket.</ListItem>
-                    <ListItem>Manage several credit based social media accounts across several platforms.</ListItem>
+                    <ListItem>Coordinate large and small scale development projects focusing in SQL and classic asp agile developement</ListItem>
+                    <ListItem>Report on my developers' activity to the senior PM hourly</ListItem>
+                    <ListItem>Automate daily and weekly tests and monitor reports for errors to ticket</ListItem>
+                    <ListItem>Manage several credit based social media accounts across several platforms</ListItem>
                   </ul>
                 </ColSummary>
               </SectionCol2>
@@ -103,15 +82,39 @@ class Resume extends React.Component {
               </SectionCol1>
               <SectionCol2>
                 <ColTitle>Walden Security · Security Officer · Chattanooga, TN</ColTitle>
-                <ColSummary>
+                {/* <ColSummary>
                   <ul>
-                    <ListItem>Performed critical observations, routine tasks, and reported regularly to a superior.</ListItem>
-                    <ListItem>Logged all activitiy hourly.</ListItem>
+                    <ListItem>Performed critical observations, routine tasks, and reported regularly to a superior</ListItem>
+                    <ListItem>Logged all activity hourly</ListItem>
                   </ul>
-                </ColSummary>
+                </ColSummary> */}
               </SectionCol2>
             </SectionRow>
           </Section>
+
+          <Section>
+            <SectionTitle>Projects</SectionTitle>
+            <SectionRow>
+              <SectionCol1>
+                Nov. 2018 to Dec. 2018
+            </SectionCol1>
+              <SectionCol2>
+                <ColTitle>RateMyDIY · Team of 5 · <a href="https://ratemydiy-dev.netlify.com/" target="_blank">ratemydiy-dev.netlify.com</a></ColTitle>
+                <ColSummary>
+                  RateMyDIY is a site that allows users to upload, rate, and review projects.
+                </ColSummary>
+                <ul>
+                  <ListItem>Collaborate with team members designing and writing the Node.js / express server endpoints and API.</ListItem>
+                  <ListItem>Implemented Bootstrap design to certain elements.</ListItem>
+                </ul>
+                <ColSummary>
+                  Stack/Tech/Utilized: JavaScript, React, Redux, Express, Node.js, Knex, MySQL, Postgres
+                </ColSummary>
+              </SectionCol2>
+            </SectionRow>
+
+          </Section>
+
           <Section>
             <SectionTitle>Education</SectionTitle>
             <SectionRow>
@@ -119,9 +122,15 @@ class Resume extends React.Component {
                 July 2018 to present
               </SectionCol1>
               <SectionCol2>
-                <ColTitle>Lambda School</ColTitle>
-                <ColSummary>Full Stack Web Development Track
-                  Lambda School is an immersive hands-on Software Engineering and Computer Science Academy with acurriculum that includes:</ColSummary>
+                <ColTitle>Lambda School · Full Stack Web Development Track</ColTitle>
+                <ColSummary>
+                  Lambda School is an immersive hands-on Software Engineering and Computer Science Academy with a curriculum that includes:
+                </ColSummary>
+                <ul>
+                  <ListItem>Programming Theory</ListItem>
+                  <ListItem>Fundamentals of HTML, CSS, JavaScript, and Python</ListItem>
+                  <ListItem>Soft skills, including peer programming</ListItem>
+                </ul>
               </SectionCol2>
             </SectionRow>
           </Section>
@@ -135,70 +144,72 @@ class Resume extends React.Component {
 export default Resume
 
 const ResumeContainer = styled.div`
-        `;
+
+`;
 
 const ResumeHeader = styled.div`
-        
-        `;
+  margin-bottom: 10px;
+`;
 
 const ResumeName = styled.div`
-          color: #d4d4dc;
-          font-size: 2.82843rem;
-          font-weight: 600;
-          font-family: -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
-        `;
+  color: #d4d4dc;
+  font-size: 2.82843rem;
+  font-weight: 600;
+  font-family: -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Helvetica','Arial',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+`;
 
 const ResumeContact = styled.div`
-          display: flex;
-        `;
+  display: flex;
+`;
 
 const ResumeContactLink = styled.a`
-          margin-right: 15px;
-        `;
+  margin-right: 15px;
+`;
+
 const ResumeContactItem = styled.p`
-      margin-right: 15px;
-    `;
+  margin-right: 15px;
+  margin-bottom: 0;
+`;
+
 const ResumeSummary = styled.p`
-          /* margin-top: 1px; */
-        `;
+  /* margin-bottom: 5px; */
+`;
 
 const Section = styled.div`
-          display: flex;
-          flex-direction: column;
-        `;
+`;
 
 const SectionTitle = styled.h3`
-        margin: 5px 0 10px 0;
-        border-bottom: 2px solid white;
-        `;
+  margin: 5px 0 5px 0;
+  border-bottom: 2px solid white;
+`;
 
 const SectionRow = styled.div`
-          display: flex;
-        `;
+  display: flex;
+  height: auto;
+`;
 
 const SectionCol1 = styled.p`
-          display: flex;
-          width: 20%;
-          margin-bottom: -15px;
-          flex-direction: column;
-        `;
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+`;
 
 const SectionCol2 = styled.p`
-          display: flex;
-          width: 80%;
-          flex-direction: column;
-        `;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+`;
 
 const ColTitle = styled.div`
-          font-size: 1.1rem;
-          font-weight: bold;
-          margin-bottom: 18px;
-        `;
+  font-size: 1.1rem;
+  font-weight: bold;
+  /* margin-bottom: 18px; */
+`;
 
 const ColSummary = styled.p`
-          /* margin-bottom: 5px; */
 `;
 
 const ListItem = styled.li`
   list-style-position: outside;
+  line-height: 22px;
 `;
