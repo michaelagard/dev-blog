@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import styled from 'styled-components';
+
 class Resume extends React.Component {
   render() {
     return (
@@ -97,7 +98,7 @@ class Resume extends React.Component {
                 Nov. 2018 to Dec. 2018
             </SectionCol1>
               <SectionCol2>
-                <ColTitle>RateMyDIY · Team of 5 · <a href="https://ratemydiy-dev.netlify.com/" target="_blank">ratemydiy-dev.netlify.com</a></ColTitle>
+                <ColTitle>RateMyDIY · Team of 5 · <a href="https://www.qrafts.app/" target="_blank">Qrafts</a></ColTitle>
                 <ColSummary>
                   RateMyDIY is a site that allows users to upload, rate, and review projects.
                 </ColSummary>
