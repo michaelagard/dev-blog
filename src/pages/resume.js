@@ -6,93 +6,38 @@ class Resume extends React.Component {
   render() {
     return (
       <Layout location={this.props.location}>
+        <p><a href="/">return home</a></p>
+
         <ResumeContainer>
+
           <ResumeHeader>
             <ResumeName>Michael Agard</ResumeName>
+
             <ResumeContact>
               <ResumeContactItem>Graysville, TN</ResumeContactItem>
             </ResumeContact>
+
             <ResumeContact>
               <ResumeContactItem>423-381-0110</ResumeContactItem>
               <ResumeContactLink href="mailto://mdagard@gmail.com">mdagard@gmail.com</ResumeContactLink>
             </ResumeContact>
+
             <ResumeContact>
               <ResumeContactLink href="https://www.linkedin.com/in/mdagard" target="_blank">LinkedIn</ResumeContactLink>
               <ResumeContactLink href="https://github.com/michaelagard" target="_blank">GitHub</ResumeContactLink>
               <ResumeContactLink href="https://twitter.com/AdultAgard" target="_blank">Twitter</ResumeContactLink>
             </ResumeContact>
+
           </ResumeHeader>
+
           <ResumeSummary>
             Full stack web developer with 4 years of experience as a project manager. Most experienced with JavaScript and Python.
           </ResumeSummary>
 
-          <Section>
-            <SectionTitle>Skills</SectionTitle>
-            <SectionRow>
-              <SectionCol1>
-                Front End
-            </SectionCol1>
-              <SectionCol2>
-                <ColSummary>HTML, CSS, JavaScript</ColSummary>
-              </SectionCol2>
-            </SectionRow>
-            <SectionRow>
-              <SectionCol1>
-                Frameworks
-            </SectionCol1>
-              <SectionCol2>
-                <ColSummary>React, Redux, Express, Bootstrap</ColSummary>
-              </SectionCol2>
-            </SectionRow>
-            <SectionRow>
-              <SectionCol1>
-                Backend
-            </SectionCol1>
-              <SectionCol2>
-                <ColSummary>JavaScript, Python3, Node.js</ColSummary>
-              </SectionCol2>
-            </SectionRow>
-            <SectionRow>
-              <SectionCol1>
-                Databases
-            </SectionCol1>
-              <SectionCol2>
-                <ColSummary>SQLite, Microsoft SQL, PostgreSQL, Knex</ColSummary>
-              </SectionCol2>
-            </SectionRow>
-          </Section>
-
-          <Section>
-            <SectionTitle>Work Experience</SectionTitle>
-            <SectionRow>
-              <SectionCol1>
-                June 2014 to July 2018
-              </SectionCol1>
-              <SectionCol2>
-                <ColTitle>Pentius · Project Manager · Boca Raton, FL (Remote)</ColTitle>
-                <ul>
-                  <ListItem>Coordinate large and small scale development projects focusing in SQL and classic asp agile developement</ListItem>
-                  <ListItem>Report on my developers' activity to the senior PM hourly</ListItem>
-                  <ListItem>Automate daily and weekly tests and monitor reports for errors to ticket</ListItem>
-                  <ListItem>Manage several credit based social media accounts across several platforms</ListItem>
-                </ul>
-              </SectionCol2>
-            </SectionRow>
-            <SectionRow>
-              <SectionCol1>
-                June 2011 to July 2014
-              </SectionCol1>
-              <SectionCol2>
-                <ColTitle>Walden Security · Security Officer · Chattanooga, TN</ColTitle>
-                <ul>
-                  <ListItem>Perform critical observations, routine tasks, and report regularly to a superior officer</ListItem>
-                </ul>
-              </SectionCol2>
-            </SectionRow>
-          </Section>
-
+          {/* PROJECTS */}
           <Section>
             <SectionTitle>Projects</SectionTitle>
+
             <SectionRow>
               <SectionCol1>
                 Nov. 2018 to Dec. 2018
@@ -112,9 +57,87 @@ class Resume extends React.Component {
                 </ColSummary>
               </SectionCol2>
             </SectionRow>
+            <SectionRow>
+              <SectionCol1>
+                Nov. 2018 to Dec. 2018
+            </SectionCol1>
+              <SectionCol2>
+                <ColTitle>Lambda Treasure Hunt · <a href="https://github.com/michaelagard/Lambda-Treasure-Hunt" target="_blank">Github</a></ColTitle>
+                <ColSummary>
+                  The Lambda Treasure Hunt is a project designed to traverse a hidden graph in the most efficient manner possible while also using responses from API calls based on the node points’ environment all while generating a dynamic map.
+                </ColSummary>
+                <ul>
+                  <ListItem>Basic implementation of a depth first search to find a random leaf node.</ListItem>
+                  <ListItem>Map generated using algorithmic CSS boxes and Styled-Components.</ListItem>
+                  <ListItem>The web browser’s local storage is employed to handle all previously visited nodes.</ListItem>
+                </ul>
+                <ColSummary>
+                  Tech Stack Utilized: React | Styled-Components | Axios | JavaScript
+                </ColSummary>
+              </SectionCol2>
+            </SectionRow>
+          </Section>
+          
+          {/* SKILLS */}
+          <Section>
+            <SectionTitle>Skills</SectionTitle>
 
+            <SectionRow>
+              <SectionCol1>
+                Front End
+            </SectionCol1>
+              <SectionCol2>
+                <ColSummary>HTML, CSS, JavaScript</ColSummary>
+              </SectionCol2>
+            </SectionRow>
+            <SectionRow>
+              <SectionCol1>
+                Frameworks
+            </SectionCol1>
+              <SectionCol2>
+                <ColSummary>React, Redux, Express, Bootstrap, Material UI</ColSummary>
+              </SectionCol2>
+            </SectionRow>
+
+            <SectionRow>
+              <SectionCol1>
+                Backend
+            </SectionCol1>
+              <SectionCol2>
+                <ColSummary>JavaScript, Python3, Node.js, C</ColSummary>
+              </SectionCol2>
+            </SectionRow>
+
+            <SectionRow>
+              <SectionCol1>
+                Databases
+            </SectionCol1>
+              <SectionCol2>
+                <ColSummary>SQLite, Microsoft SQL, PostgreSQL, Knex</ColSummary>
+              </SectionCol2>
+            </SectionRow>
           </Section>
 
+          {/* WORK EXPERIENCE */}
+          <Section>
+            <SectionTitle>Work Experience</SectionTitle>
+            <SectionRow>
+              <SectionCol1>
+                June 2014 to July 2018
+              </SectionCol1>
+              <SectionCol2>
+                <ColTitle>Pentius · Project Manager · Boca Raton, FL (Remote)</ColTitle>
+                <ul>
+                  <ListItem>Coordinate large and small scale development projects focusing in SQL and classic asp agile developement</ListItem>
+                  <ListItem>Report on my developers' activity to the senior PM hourly</ListItem>
+                  <ListItem>Automate daily and weekly tests and monitor reports for errors to ticket</ListItem>
+                  <ListItem>Manage several credit based social media accounts across several platforms</ListItem>
+                </ul>
+              </SectionCol2>
+            </SectionRow>
+          </Section>
+
+          {/* EDUCATION */}
           <Section>
             <SectionTitle>Education</SectionTitle>
             <SectionRow>
