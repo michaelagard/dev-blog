@@ -43,9 +43,9 @@ class Resume extends React.Component {
                 Nov. 2018 to Dec. 2018
             </SectionCol1>
               <SectionCol2>
-                <ColTitle>RateMyDIY · Team of 5 · <a href="https://www.qrafts.app/" target="_blank">Qrafts</a></ColTitle>
+                <ColTitle>Qrafts · Team of 5 · <a href="https://www.qrafts.app/" target="_blank">Qrafts</a></ColTitle>
                 <ColSummary>
-                  RateMyDIY is a site that allows users to upload, rate, and review projects.
+                  Qrafts is a site that allows users to upload, rate, and review projects.
                 </ColSummary>
                 <ul>
                   <ListItem>Collaborate with team members designing and writing the Node.js / express server endpoints and API.</ListItem>
@@ -77,7 +77,7 @@ class Resume extends React.Component {
               </SectionCol2>
             </SectionRow>
           </Section>
-          
+
           {/* SKILLS */}
           <Section>
             <SectionTitle>Skills</SectionTitle>
