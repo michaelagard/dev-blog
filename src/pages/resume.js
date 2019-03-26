@@ -14,7 +14,7 @@ class Resume extends React.Component {
             <ResumeName>Michael Agard</ResumeName>
 
             <ResumeContact>
-              <ResumeContactItem>Graysville, TN</ResumeContactItem>
+              <ResumeContactItem>Kalamazoo, MI</ResumeContactItem>
             </ResumeContact>
 
             <ResumeContact>
