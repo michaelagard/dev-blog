@@ -3,9 +3,10 @@ module.exports = {
     title: "michael's dev blog",
     author: 'michael agard',
     description: "a dev blog following michael's dev journey",
-    siteUrl: 'https://mdevblog.netlify.com',
+    siteUrl: 'https://mdevblog.com',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  // pathPrefix: '/gatsby-starter-blog',
+  pathPrefix: '/',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
